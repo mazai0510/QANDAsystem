@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+         http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+  
+  <servlet>
+    <servlet-name>Registration3</servlet-name>
+    <servlet-class>Registration3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Registration3</servlet-name>
+    <url-pattern>/QANDA/Registration/servlet/Registration3</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/QANDA/login/servlet/Login</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+    <servlet-name>Questions</servlet-name>
+    <servlet-class>Questions</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Questions</servlet-name>
+    <url-pattern>/QANDA/question/servlet/Questions</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>QANDA1</servlet-name>
+    <servlet-class>QANDA1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>QANDA1</servlet-name>
+    <url-pattern>/QANDA/search/servlet/QANDA1</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteQuestion</servlet-name>
+    <servlet-class>DeleteQuestion</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DeleteQuestion</servlet-name>
+    <url-pattern>/QANDA/myque/servlet/DeleteQuestion</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteAnswer</servlet-name>
+    <servlet-class>DeleteAnswer</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DeleteAnswer</servlet-name>
+    <url-pattern>/QANDA/myans/servlet/DeleteAnswer</url-pattern>
+  </servlet-mapping>
+
+</web-app>

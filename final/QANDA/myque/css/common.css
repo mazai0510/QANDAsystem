@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* 基本設定
+ ------------------------------------------------ */
+body{
+    font-family: sans-serif; /* フォントの指定  */
+    font-size: 16px;
+    background: rgba(230,255,255,1); /* 背景  */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* ヘッダー 
+ ------------------------------------------------- */
+header{
+    margin-top:0;
+    width:100%; /* 幅 */
+    padding: 4em 0 1em;  /* パディングの大きさ */
+    background: rgba(30,70,120,1);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+header a{
+    color: rgb(255, 255, 255);
+}
+
+header button{
+    padding: 1em 1em;
+    position:absolute; /* 自分のいた位置を基準に動く  */
+    top: 3%;
+    right:3%;
+}
+
+header nav{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+
+header h1{
+    padding: 10px 5px;
+    font-size:300%;
+    color: rgb(255, 255,255);
+    /* position: absolute; */
+    top:0%
+}
+
+
+/* メインエリア
+ ------------------------------------------------- */
+
+
+main{
+    width:100%;
+    max-width: 920px; /* 幅の最大値を指定  */ 
+    height:100%;
+    max-height: 600px;
+    margin: 2em auto 1em; /* マージンの大きさ(上下:2em, 左右:自動的に調整) */    
+    padding:2em 0;
+    background: rgba(230,230,230,1);
+    text-align: center;
+}
+
+main nav ul li{
+    display: inline-block
+}
+
+main nav ul li a{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    padding: 0 1em;
+}
+
+
+main textarea{
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    max-width: 100%;
+    padding: 16px;
+    width: 100%;
+    height: 30em;
+}
+
+/* フッター 
+ -------------------------------------------------- */
+footer{
+    margin-bottom:0;
+    width:100%;
+    padding: 2em 0 3em;
+    background: rgba(10,50,90,1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+/* ユーザ名とパスワードの入力欄の装飾
+ --------------------------------------------------- */
+.username, .password{
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    dislplay: block;
+    font-size: 16px;
+    margin-bottom: 16px;
+    max-width: 100%;
+    padding: 8px 32px;
+    widrh: 100%;
+}
+
+
+/* ボタンの装飾
+ --------------------------------------------------- */
+
+
+.button{
+    background: rgba(200,200,200,1.0);
+    border-radius:0.5em;
+    color: rgba(0,0,0,1.0);
+    padding: 1em 2em;
+    margin-top: 2em;
+}
+
+.btn1{
+    width:200px;
+    height:80px;
+    margin:4em 8em;
+    font-size:0.8em;
+}
+
+.btn2{
+    width:200px;
+    height:80px;
+    margin:4em 8em;
+    font-size:0.8em;
+}
+
+/* シンプル囲み枠 
+ ---------------------------------------------------- */
+.kakomi-box {
+ margin: 2em auto;
+ padding: 1em;
+ width: 80%;
+ color: #666; /* 文字色 */
+ background-color: #f7f7f7; /* 背景色 */
+ border: 1px solid #ccc; /* 枠線 */
+ border-radius: 10px;
+}

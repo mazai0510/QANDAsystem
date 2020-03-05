@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ログイン</title>
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <header>
+      <h1>KIT解決</h1>
+    </header>
+    <main>
+      <h1>ログイン</h1>
+      <div class="kakomi-box">
+	<form name="login" action=servlet/Login method="POST"> <!-- methodにPOSTを指定するとURLにデータが表示されない -->
+	  <input class="username" type="text" name=Name maxlength="20" placeholder="ユーザ名" required> <br>  <!-- maxlength:入力できる文字の上限、required: 入力を必須にする  -->
+	  <input class="password" type="password" name=Password maxlength="20" placeholder="パスワード" required> <br>
+	  <input class="button" type="submit" value="ログイン">
+	</form>
+	<form name="registration" action=../../Registration/Registration.html>
+	  <input class="button" type="submit" value="アカウント作成">
+	</form>
+      </div>
+    </main>
+    <footer>
+      関連リンクなど
+    </footer>
+  </body>
+</html>
